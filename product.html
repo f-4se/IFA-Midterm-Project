@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Product</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style-menu.css" />
+
+        <style>
+            .card-img-top {
+                overflow: hidden;
+                height: 200px;
+            }
+        </style>
+    </head>
+
+    <body style="overflow-x: hidden">
+        <header class="col-md-12 m-1">
+            <nav class="navbar navbar-expand-lg container">
+                <a class="navbar-brand" href="#">XYZ Company</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul
+                        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px"
+                    >
+                        <li class="nav-item mx-3">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" href="#">Product</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Collection
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="product.html"
+                                        >Best Sellers</a
+                                    >
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="ranking.html"
+                                        target="_blank"
+                                        >Best Paintings</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="contact.html"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                        />
+                        <button class="btn btn-outline-success" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container mt-5">
+            <h2>Our Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img
+                            src="image/night-watch-photo.jfif"
+                            class="card-img-top"
+                            alt="Product 1"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">The Night Watch</h5>
+                            <p class="card-text">Rs 300</p>
+                            <p class="card-text">
+                                The Night Watch (Dutch: De Nachtwacht), is a
+                                1642 painting by Rembrandt van Rijn. It is in
+                                the collection of the Amsterdam Museum but is
+                                prominently displayed in the Rijksmuseum as the
+                                best-known painting in its collection.
+                            </p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline-secondary">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img
+                            src="image/the-great-wave-off-kanagawa-photo.jfif"
+                            class="card-img-top"
+                            alt="Product 2"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                The Great Wave off Kanagawa
+                            </h5>
+                            <p class="card-text">
+                                <span class="">Rs 500</span>
+                            </p>
+                            <p class="card-text">
+                                The Wave, is Hokusai's most famous work, and one
+                                of the best recognized works of Japanese art in
+                                the world. It depicts an enormous wave
+                                threatening boats off the coast of the
+                                prefecture of Kanagawa.
+                            </p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline-secondary">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img
+                            src="image/water-lillies-photo.jfif"
+                            class="card-img-top"
+                            alt="Product 3"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Water Lilies</h5>
+                            <p class="card-text">Rs 400</p>
+                            <p class="card-text">
+                                Water Lilies is a series of oil paintings by
+                                Claude Monet (1840–1926). It depict his flower
+                                garden at his home in Giverny, and were the main
+                                focus of his artistic production during the last
+                                thirty years of his life.
+                            </p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline-secondary">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img
+                            src="image/girl-with-a-pearl-earring-photo.jfif"
+                            class="card-img-top"
+                            alt="Product 4"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Girl With A Pearl Earring
+                            </h5>
+                            <p class="card-text">
+                                <span class="text-decoration-line-through"
+                                    >Rs 800</span
+                                >
+                                Rs 600
+                            </p>
+                            <p class="card-text">
+                                Each The Girl With A Pearl Earring reproduction
+                                created by our expert artists is completely
+                                handmade in our own studio using the best
+                                materials available to ensure the durability and
+                                preservation quality of a true masterpiece.
+                            </p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline-secondary">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img
+                            src="image/the-astronomer-photo-u1.jfif"
+                            class="card-img-top"
+                            alt="Product 5"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">The Astronomer</h5>
+                            <p class="card-text">Rs 1000</p>
+                            <p class="card-text">
+                                The painting shows an astronomer looking at a
+                                globe. The astronomer's profession is shown by
+                                the celestial globe (version by Jodocus Hondius)
+                                and the book on the table, the 1621 edition of
+                                Adriaan Metius's Institutiones Astronomicae
+                                Geographicae.
+                            </p>
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-outline-secondary">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-light text-center text-lg-start">
+            <hr />
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 mb-2">
+                        <h5 class="text-uppercase">Contact Us</h5>
+                        <p>
+                            <strong>Phone:</strong> +977 01xxxxxxx <br />
+                            <strong>Email:</strong> xyz_company@gmailcom <br />
+                            <strong>Address:</strong> xyz
+                        </p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <h5 class="text-uppercase">Quick Links</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="index.html" class="text-dark">Home</a>
+                            </li>
+                            <li>
+                                <a href="product.html" class="text-dark"
+                                    >Product</a
+                                >
+                            </li>
+                            <li>
+                                <a href="contact.html" class="text-dark"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <h5 class="text-uppercase">Follow Us</h5>
+                        <a href="" class="text-white me-3">
+                            <img
+                                src="image/facebook-logo.png"
+                                alt="facebook"
+                                width="30px"
+                            />
+                        </a>
+                        <a href="#" class="text-white me-3">
+                            <img
+                                src="image/Instagram.webp"
+                                alt="instagram"
+                                width="30px"
+                            />
+                        </a>
+                        <a href="#" class="text-white me-3">
+                            <img
+                                src="image/linkedIn-logo.png"
+                                alt="linkedIn"
+                                width="30px"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center p-3 bg-dark text-white">
+                &copy; 2024 XYZ Company. All rights reserved.
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </body>
+</html>
